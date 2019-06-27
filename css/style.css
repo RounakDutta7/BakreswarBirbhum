@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* GLOBAL ************************************/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* SLIDER ***********************************************************/
+
+.jssorl-004-double-tail-spin img {
+            animation-name: jssorl-004-double-tail-spin;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-004-double-tail-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb051 .i {position:absolute;cursor:pointer;}
+        .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;stroke:#000;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}
+        .jssorb051 .i:hover .b {fill-opacity:.7;}
+        .jssorb051 .iav .b {fill-opacity: 1;}
+        .jssorb051 .i.idn {opacity:.3;}
+
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+/* BUTTON *************************************/
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 9999999; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: orangered; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px;
+    font-weight: bold; 
+}
+
+#myBtn:hover {
+    background-color: darkslategrey; /* Add a dark-grey background on hover */
+}
+
+/* HEADER ************************************/
+
+header {
+    z-index: 9999;
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orangered 3px solid;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 13px;
+}
+
+header a:hover {
+    color: orangered;
+}
+
+header #brand {
+    float: left;
+}
+
+header li {
+    float: left;
+    padding: 0 15px 0 15px;
+}
+
+header nav {
+    float: right;
+    padding-top: 35px;
+}
+
+header .highlight {
+    color: orangered;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+/* SECTION ******************************************************************/
+
+section {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* HOME **************************************************/
+
+div#home {
+    font-size: 16px; 
+    text-align: justify;
+    padding: 5px;
+}
+div#home figure {
+    float: right; 
+    margin: 5px 0 0 10px;
+}
+
+/*-- HISTORY --------------------------------------------------------- */
+
+div#history {
+    text-align: justify;
+    font-size: 16px;
+    line-height:  1.5;
+    padding: 150px 10px 10px 10px;
+    margin-bottom: 5px;
+}
+
+div#history figure {
+    float: right; 
+    margin: 5px 0 0 10px;
+}
+
+div#history p {
+    text-align: center;
+    background: #c1c1c1;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div#history img {
+    border: 2px solid black;
+}
+
+/*-- HOW TO COME --------------------------------------------------------- */
+div#come {
+    text-align: justify;
+    font-size: 16px;
+    line-height:  1.5;
+    padding: 0 10px 30px 10px;
+}
+
+div#come p {
+    text-align: center;
+    background: #c1c1c1;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+div#come>div#googleMap {
+    width: 80%;
+    height: 430px;
+    margin: 0 auto;
+}
+
+/*-- GET AROUND --------------------------------------------------------- */
+div#getAround {
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+}
+div#getAround p {
+    text-align: center;
+    background: #c1c1c1;
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+}
+div#getAround ul{
+    list-style-type: none;
+    line-height: 1.8;
+}
+div#getAround li {
+    font-size: 16px;
+    margin-left: 50px; 
+}
+/*-- FOOTER --------------------------------------------------------- */
+footer {
+    text-align: center;
+    font-size: 10px;
+    padding: 30px 0 30px 0;
+    background-color: darkslategrey;
+    color: white;
+}
+
+/************************************************** FOR TABLET SCREEN SIZE *************************************************/
+
+
+@media(max-width: 768px){
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    header #brand,
+    header nav,
+    header nav li
+    {
+        text-align: center;
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header #brand h1 {
+        font-size: 20px;
+    }
+    
+    header .highlight {
+        font-size: 25px;
+    }
+    
+    
+    div#home {
+        font-size: 13px; 
+        text-align: justify;
+        padding: 5px;
+    }
+    div#home figure {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+     
+    div#home img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    div#history {
+        text-align: justify;
+        font-size: 13px;
+        line-height:  1.5;
+        padding: 20px 10px 10px 10px;
+        margin-bottom: 5px;
+    }
+    div#history figure {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+    div#history img {
+        width: 100%;
+        height: 350px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    div#come,
+    div#getAround{
+        font-size: 13px;  
+    }
+    div#getAround:not(li){
+        text-align: center;
+    }
+
+    div#come p, 
+    div#history p,
+    div#getAround p
+    {
+        text-align: center;
+        background: #c1c1c1;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    div#come>div#googleMap {
+        width: 100%;
+        height: 300px;;
+    }
+    footer {
+        font-size: 8px;
+    }
+    div#getAround ul{
+        text-align: left;
+    }
+    
+    div#getAround li {
+        font-size: 13px;
+        padding: 0;
+        margin: 0
+    }
+}
