@@ -1,3 +1,3 @@
 # BakreswarBirbhum
 
-link: hhtp://www.bakreswarbirbhum.cf
+link: http://www.bakreswarbirbhum.cf
