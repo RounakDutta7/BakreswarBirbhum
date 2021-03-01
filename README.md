@@ -1,3 +1,3 @@
 # BakreswarBirbhum
 
-link: http://www.bakreswarbirbhum.cf
+link: https://rounakdutta7.github.io/BakreswarBirbhum/
